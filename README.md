@@ -49,7 +49,8 @@ Used for main branding elements, like logos or headers. It conveys professionali
 Neutral Color: #F4F4F4 (Light Grey)
 
 Acts as a background or supporting color to maintain a clean and modern look.
-Highlight Color: #E74C3C (Vibrant Red)
+    background-color: #dbf1eb;
+Highlight Color: calm green #dbf1eb (Vibrant Red)
 
 Images: Is there a logo, photos, icons or illustrations that can be used from the original site?
 Almost images are from the real source as it is personal business site. More relevant images would be from its own source like the images of physiotherapists and the brand logo, as it is unique and the place is also unique which can not be replaced.  
