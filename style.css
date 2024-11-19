@@ -34,7 +34,8 @@ nav ul li a {
     text-decoration: none;
     color: #000;
     font-size: 18px;
-    display: none;
+    font-family: Open Sans;
+    /* display: none; */
 }
 /* ------------HAMBURGER--------- */
 .hamburger {
@@ -69,7 +70,6 @@ main h1
 main h2
 {
   font-size: 20px;
-  text-align: center;
 }
 /* Contact Form */
 .contact {
@@ -135,12 +135,12 @@ footer p
     align-items: center;
 }
 /* --------desktop Media Query----------- */
-@media (max-width: 1400px) {
+@media (min-width: 1200px) {
   /* Header adjustments */
 
   header {
     background-color: #dbf1eb;
-    color: rgb(65, 29, 29);
+    color: rgb(53, 19, 19);
     padding: 1em 0;
     text-align: center;
     border-color: black;
@@ -171,10 +171,13 @@ footer p
   main h2
   {
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
   }
   main img
   {
     align-items: start;
+    width:fit-content ;
   }
   .contact {
     max-width: 600px;
@@ -209,11 +212,6 @@ footer p
     border: none;
     cursor: pointer;
   }
-  
-  form button:hover {
-    background: #005F8A;
-  }
-  
   footer {
     text-align: center;
     padding: 1em 0;
