@@ -17,12 +17,12 @@ header img {
 }
 
 nav ul {
-    display: flex;
     flex-direction: column;
     gap: 10px; /* Add space between links */
     padding: 0;
     list-style: none;
     margin: 10px 0;
+    display: none;
 }
 
 nav ul li {
@@ -34,27 +34,17 @@ nav ul li a {
     color: #000;
     font-size: 18px;
     font-family: Open Sans;
-    /* display: none; */
-}
-/* ------------HAMBURGER--------- */
-.hamburger {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  cursor: pointer;
-  align-items: start;
-  margin-left: 300%;
-}
-.hamburger span {
-  display: block;
-  width: 100%;
-  height: 3px;
-  background-color: #505d68;
-  border-radius: 2px;
 }
 
+.show-items {
+  display: flex;
+}
+.toggle
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 /* Main */
 main img
 {
@@ -69,52 +59,6 @@ main h1
 main h2
 {
   font-size: 20px;
-}
-/* Contact Form */
-.contact {
-    padding: 20px;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 24px;
-}
-
-.contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-}
-
-.contact label {
-    font-size: 16px;
-    text-align: left;
-    width: 100%;
-}
-
-.contact input,
-.contact textarea {
-    width: 100%;
-    max-width: 400px; /* Limit width for larger screens */
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #2C3E50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.contact button:hover {
-    background-color: #1A242F;
 }
 
 /* Footer */
@@ -133,6 +77,10 @@ footer p
     padding-top: 15px;
     align-items: center;
 }
+footer nav
+{
+  justify-content: center;
+}
 /* --------desktop Media Query----------- */
 @media (min-width: 1200px) {
   /* Header adjustments */
@@ -144,24 +92,23 @@ footer p
     text-align: center;
     border-color: black;
   }
-
-  header nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  header nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
   header nav ul li a {
     color:rgb(65, 29, 29);
     text-decoration: none;
     font-family: Poppins;
     display: inline-block;
+    margin-left: 50px;
+   }
+   #nav-items
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+  .toggle
+  {
+    display: none;
   }
-  
   main {
     padding: 3em;
     text-align: center;
@@ -177,39 +124,6 @@ footer p
   {
     align-items: start;
     width:fit-content ;
-  }
-  .contact {
-    max-width: 600px;
-    margin: auto;
-    background: #f4f4f4;
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact h2 {
-    text-align: center;
-    margin-bottom: 1em;
-  }
-  
-  form label {
-    display: block;
-    margin: 0.5em 0 0.2em;
-  }
-  
-  form input, form textarea, form button {
-    width: 100%;
-    padding: 0.5em;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  form button {
-    background: #007ACC;
-    color: #fff;
-    border: none;
-    cursor: pointer;
   }
   footer {
     text-align: center;
