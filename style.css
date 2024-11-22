@@ -16,7 +16,7 @@ header img {
     width: 150px; /* Scale down the logo */
 }
 
-nav ul {
+header ul {
     flex-direction: column;
     gap: 10px; /* Add space between links */
     padding: 0;
@@ -45,6 +45,7 @@ nav ul li a {
   top: 0;
   right: 0;
 }
+
 /* Main */
 main img
 {
