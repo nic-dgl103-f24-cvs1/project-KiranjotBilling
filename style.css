@@ -57,10 +57,32 @@ main img
   text-align: center;
   font-family: Poppins;
 }
+
 main p
 {
   font-size: 20px;
   font-style: bold;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #dddddd;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f3b5b5;
+}
+tr:nth-child(even) {
+  background-color: #a0cfc1;
+}
+tr:nth-child(odd) {
+background-color: #cba0cf;
 }
 
 /* Footer */
