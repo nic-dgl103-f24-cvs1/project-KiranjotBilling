@@ -52,7 +52,7 @@ main img
   width: 350px;
   align-items: center;
 }
-main h1
+ h1
 {
   text-align: center;
   font-family: Poppins;
@@ -132,6 +132,27 @@ footer nav
     align-items: start;
     width:fit-content ;
   }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #dddddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f3b5b5;
+}
+tr:nth-child(even) {
+    background-color: #a0cfc1;
+}
+tr:nth-child(odd) {
+  background-color: #cba0cf;
+}
   footer {
     text-align: center;
     padding: 1em 0;
