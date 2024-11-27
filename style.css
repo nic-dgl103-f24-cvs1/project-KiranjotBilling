@@ -182,7 +182,34 @@ footer nav
   {
     font-size: 20px;
   }
-  /*--------- SERVICES----------- */
+  .therpist
+  {
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex; 
+    flex-direction: row;
+    /* padding: 40px; */
+    
+  }
+  .therpist p
+{
+  font-size: 15px;
+  padding-left: 20px;
+}  
+.therpists h2
+{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(248, 27, 56);
+}
+.therpists h3
+{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(3, 43, 19);
+padding: 5px;
+}
+/*--------- SERVICES----------- */
   .services
   {
     align-content: center;
