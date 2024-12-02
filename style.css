@@ -1,70 +1,64 @@
 body {
-    font-family: Open Sans;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background:#F4F4F4;
-
-  }
-  header {
-    align-items: center;
-    padding: 10px;
-    background-color: #dbf1eb;
+  font-family: Open Sans;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+}
+header {
+  align-items: center;
+  padding: 10px;
+  background-color: #dbf1eb;
 }
 
 header img {
-    width: 150px; /* Scale down the logo */
+  width: 150px; /* Scale down the logo */
 }
 
 header ul {
-    flex-direction: column;
-    gap: 10px; /* Add space between links */
-    padding: 0;
-    list-style: none;
-    margin: 10px 0;
-    display: none;
+  flex-direction: column;
+  gap: 10px; /* Add space between links */
+  padding: 0;
+  list-style: none;
+  margin: 10px 0;
+  display: none;
 }
 
 nav ul li {
-    text-align: center;
+  text-align: center;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    font-family: Open Sans;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-family: Open Sans;
 }
 
 .show-items {
   display: flex;
 }
-.toggle
-{
+.toggle {
   position: absolute;
   top: 0;
   right: 0;
 }
 
 /* Main */
-main img
-{
+main img {
   width: 350px;
   align-items: center;
 }
- h1
-{
+h1 {
   text-align: center;
   font-family: Poppins;
 }
 
-main p
-{
+main p {
   font-size: 20px;
   font-style: bold;
 }
-main h2
-{
+main h2 {
   background-color: yellow;
 }
 table {
@@ -72,10 +66,13 @@ table {
   border-collapse: collapse;
   margin-top: 20px;
 }
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #dddddd;
 }
-th, td {
+th,
+td {
   padding: 10px;
   text-align: left;
 }
@@ -86,73 +83,61 @@ tr:nth-child(even) {
   background-color: #a0cfc1;
 }
 tr:nth-child(odd) {
-background-color: #cba0cf;
+  background-color: #cba0cf;
 }
-.location h1
-  {
-    background-color: rgb(182, 247, 121);
-    font-size: 40px;
-  }
-  .location h3
-  {
-    font-size: 30px;
-    color: rgb(232, 61, 238)
-  }
-  .location p
-  {
-    text-align: center;
-  }
-  .location h4
-  {
-    color: red;
-    font-size: 20px;
-  }
-  .location address
-  {
-    font-size: 30px;
-  }
-  .location li
-  {
-    font-size: 20px;
-  }
-  
-  .therpist p
-{
+.location h1 {
+  background-color: rgb(182, 247, 121);
+  font-size: 40px;
+}
+.location h3 {
+  font-size: 30px;
+  color: rgb(232, 61, 238);
+}
+.location p {
+  text-align: center;
+}
+.location h4 {
+  color: red;
+  font-size: 20px;
+}
+.location address {
+  font-size: 30px;
+}
+.location li {
+  font-size: 20px;
+}
+
+.therpist p {
   font-size: 15px;
- 
-}  
-.therpists h2
-{
+}
+.therpists h2 {
   text-align: center;
   font-size: 30px;
   color: rgb(248, 27, 56);
 }
-.therpists h3
-{
+.therpists h3 {
   text-align: center;
   font-size: 15px;
   color: rgb(3, 43, 19);
-padding: 5px;
+  padding: 5px;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-    padding: 1em 0;
-    background: #222;
-    color: #fff;
-    margin-top: 2em;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  padding: 1em 0;
+  background: #222;
+  color: #fff;
+  margin-top: 2em;
 }
-footer p
-{
-    border-top: 2px solid #F4F4F4;
-    padding-top: 15px;
-    align-items: center;
+footer p {
+  border-top: 2px solid #f4f4f4;
+  padding-top: 15px;
+  align-items: center;
 }
-footer nav
-{
+footer nav {
   justify-content: center;
 }
 /* --------desktop Media Query----------- */
@@ -167,20 +152,18 @@ footer nav
     border-color: black;
   }
   header nav ul li a {
-    color:rgb(65, 29, 29);
+    color: rgb(65, 29, 29);
     text-decoration: none;
     font-family: Poppins;
     display: inline-block;
     margin-left: 50px;
-   }
-   #nav-items
-   {
+  }
+  #nav-items {
     display: flex;
     flex-direction: row;
     justify-content: center;
-   }
-  .toggle
-  {
+  }
+  .toggle {
     display: none;
   }
   main {
@@ -188,117 +171,103 @@ footer nav
     text-align: center;
     font-size: 14px;
   }
-  main p
-  {
+  main p {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     font-style: bold;
   }
-  main h2
-  {
+  main h2 {
     background-color: yellow;
   }
-  main img
-  {
+  main img {
     align-items: start;
-    width:fit-content ;
+    width: fit-content;
   }
   /* ------------CONTACT--------- */
-  .location h1
-  {
+  .location h1 {
     background-color: rgb(182, 247, 121);
     font-size: 40px;
   }
-  .location h3
-  {
+  .location h3 {
     font-size: 30px;
-    color: rgb(232, 61, 238)
+    color: rgb(232, 61, 238);
   }
-  .location p
-  {
+  .location p {
     text-align: center;
   }
-  .location h4
-  {
+  .location h4 {
     color: red;
     font-size: 20px;
   }
-  .location address
-  {
+  .location address {
     font-size: 30px;
   }
-  .location li
-  {
+  .location li {
     font-size: 20px;
   }
-  .therpist
-  {
+  .therpist {
     margin-left: 250px;
     margin-right: 250px;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     /* padding: 40px; */
-    
   }
-  .therpist p
-{
-  font-size: 15px;
-  padding-left: 20px;
- 
-}  
-.therpists h2
-{
-  text-align: center;
-  font-size: 30px;
-  color: rgb(248, 27, 56);
-}
-.therpists h3
-{
-  text-align: center;
-  font-size: 15px;
-  color: rgb(3, 43, 19);
-padding: 5px;
-}
-.therpist img
-{
-  /* height: 300px; */
-  border-radius: 15%;
-  /* width: 300px;
+  .therpist p {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  .therpists h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(248, 27, 56);
+  }
+  .therpists h3 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(3, 43, 19);
+    padding: 5px;
+  }
+  .therpist img {
+    /* height: 300px; */
+    border-radius: 15%;
+    /* width: 300px;
   margin-top: 50px; */
-}
-/*--------- SERVICES----------- */
-  .services
-  {
+  }
+  /*--------- SERVICES----------- */
+  .services {
     align-items: center;
     padding: 0px 500px;
-      gap: 20px;
-      margin-top: 20px;
-      display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    display: flex;
   }
-  
+
   /*------------ PRICE -------------*/
   table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-}
-table, th, td {
+  }
+  table,
+  th,
+  td {
     border: 1px solid #dddddd;
-}
-th, td {
+  }
+  th,
+  td {
     padding: 10px;
     text-align: left;
-}
-th {
+  }
+  th {
     background-color: #f3b5b5;
-}
-tr:nth-child(even) {
+  }
+  tr:nth-child(even) {
     background-color: #a0cfc1;
-}
-tr:nth-child(odd) {
-  background-color: #cba0cf;
-}
+  }
+  tr:nth-child(odd) {
+    background-color: #cba0cf;
+  }
   footer {
     text-align: center;
     padding: 1em 0;
@@ -306,9 +275,8 @@ tr:nth-child(odd) {
     color: #fff;
     margin-top: 2em;
   }
-  footer p
-  {
-    border-top: 2px solid #F4F4F4;
+  footer p {
+    border-top: 2px solid #f4f4f4;
     align-items: center;
   }
-} 
+}
