@@ -56,10 +56,41 @@ h1 {
 
 main p {
   font-size: 20px;
-  font-style: bold;
 }
 main h2 {
   background-color: yellow;
+}
+main h2:hover
+{
+  color: red;
+}
+main h2:visited
+{
+  background-color: green;
+}
+.services table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.services table,
+th,
+td {
+  border: 1px solid #dddddd;
+}
+.services th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+.services th {
+  background-color: #f3b5b5;
+}
+.services tr:nth-child(even) {
+  background-color: #9ee76d;
+}
+.services tr:nth-child(odd) {
+  background-color: #f6dcf8;
 }
 table {
   width: 100%;
@@ -175,7 +206,6 @@ footer nav {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    font-style: bold;
   }
   main h2 {
     background-color: yellow;
@@ -183,6 +213,10 @@ footer nav {
   main img {
     align-items: start;
     width: fit-content;
+  }
+  video
+  {
+    width: 100%;
   }
   /* ------------CONTACT--------- */
   .location h1 {
@@ -267,6 +301,10 @@ footer nav {
   }
   tr:nth-child(odd) {
     background-color: #cba0cf;
+  }
+  Video
+  {
+    width: 100%;
   }
   footer {
     text-align: center;
