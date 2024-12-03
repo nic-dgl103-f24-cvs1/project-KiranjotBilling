@@ -1,9 +1,9 @@
 body {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background: #f4f4f4;
+  background: #e2dfdf;
 }
 header {
   align-items: center;
@@ -32,7 +32,6 @@ nav ul li a {
   text-decoration: none;
   color: #000;
   font-size: 18px;
-  font-family: Open Sans;
 }
 
 .show-items {
@@ -58,15 +57,11 @@ main p {
   font-size: 20px;
 }
 main h2 {
-  background-color: yellow;
+  background-color: #ffff00;
 }
 main h2:hover
 {
-  color: red;
-}
-main h2:visited
-{
-  background-color: green;
+  color: #3700ff;
 }
 .services table {
   width: 100%;
@@ -76,7 +71,7 @@ main h2:visited
 .services table,
 th,
 td {
-  border: 1px solid #dddddd;
+  border: 5px solid #111111;
 }
 .services th,
 td {
@@ -87,10 +82,14 @@ td {
   background-color: #f3b5b5;
 }
 .services tr:nth-child(even) {
-  background-color: #9ee76d;
+  background-color: #bdf597;
 }
 .services tr:nth-child(odd) {
   background-color: #f6dcf8;
+}
+.services tr:first-child {
+  background-color: #e5cef0;
+  font-size: 30px;
 }
 table {
   width: 100%;
@@ -117,12 +116,12 @@ tr:nth-child(odd) {
   background-color: #cba0cf;
 }
 .location h1 {
-  background-color: rgb(182, 247, 121);
+  background-color: #b6f779;
   font-size: 40px;
 }
 .location h3 {
   font-size: 30px;
-  color: rgb(232, 61, 238);
+  color: #450247;
 }
 .location p {
   text-align: center;
@@ -143,8 +142,13 @@ tr:nth-child(odd) {
 }
 .therpists h2 {
   text-align: center;
-  font-size: 30px;
-  color: rgb(248, 27, 56);
+  font-size: 40px;
+  color: #5f0612;
+  background-color: #dff707;
+}
+.therpists h2:hover
+{
+  color: #3700ff;
 }
 .therpists h3 {
   text-align: center;
@@ -180,7 +184,7 @@ footer nav {
     color: rgb(53, 19, 19);
     padding: 1em 0;
     text-align: center;
-    border-color: black;
+    border-color: #000000;
   }
   header nav ul li a {
     color: rgb(65, 29, 29);
@@ -220,18 +224,18 @@ footer nav {
   }
   /* ------------CONTACT--------- */
   .location h1 {
-    background-color: rgb(182, 247, 121);
+    background-color: #b6f779;
     font-size: 40px;
   }
   .location h3 {
     font-size: 30px;
-    color: rgb(232, 61, 238);
+    color:450247
   }
   .location p {
     text-align: center;
   }
   .location h4 {
-    color: red;
+    color:#940000;
     font-size: 20px;
   }
   .location address {
@@ -253,8 +257,8 @@ footer nav {
   }
   .therpists h2 {
     text-align: center;
-    font-size: 30px;
-    color: rgb(248, 27, 56);
+    font-size: 40px;
+    color: #5f0612;
   }
   .therpists h3 {
     text-align: center;
